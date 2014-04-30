@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "rm -rf dist && ./node_modules/.bin/gulp assemble && cat dist/www/01_hello-world.html"
+    "test": "rm -rf dist && ./node_modules/.bin/gulp && cat dist/www/01_hello-world.html"
   },
   "author": "Fabricio C Zuardi",
   "license": "MIT",
