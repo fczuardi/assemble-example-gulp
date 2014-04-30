@@ -19,7 +19,7 @@ gulp.task('assemble', function(){
     var options = {
         layoutdir: paths.sources.layouts,
         // the following line shouldnt be needed
-        layout: 'html_page.hbs', //default layout
+        // layout: 'html_page.hbs', //default layout
         partials: paths.sources.partials + '*.hbs',
         data: paths.sources.data,
         log: {
